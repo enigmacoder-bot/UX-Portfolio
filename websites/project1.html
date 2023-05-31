@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Roboto:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/220bbdbf50.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/scripts.js" async defer></script>
+    <title>Portfolio UX | UI - Ozog</title>
+  </head>
+  <body>
+    <button class="top-btn">Top</button>
+
+    <main class="main-container">
+      <section class="hero__without container">
+        <nav class="hero__nav">
+          <a href="../index.html" class="hero__logo">A--U--O</a>
+          <button class="hero__toggler" type="button" data-toggle="collapse">
+            <span class="hero__toggler--icon"
+              ><span class="fas fa-bars"></span
+            ></span>
+          </button>
+          <ul class="hero__menu">
+            <li class="hero__item">
+              <a class="hero__link" href="../index.html">Projects</a>
+            </li>
+        
+            <li class="hero__item">
+              <a class="hero__link" href="about.html">About</a>
+            </li>
+            <li class="hero__item">
+              <a class="hero__link btn" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <nav class="hero__mobile hiddens">
+            <button class="mobile__close" type="button">
+              <span class="fas fa-times"></span>
+            </button>
+            <ul class="mobile__list">
+              <li class="mobile__item">
+                <a class="mobile__link" href="../index.html">Projects</a>
+              </li>
+              <li class="mobile__item">
+                <a class="mobile__link" href="about.html">About</a>
+              </li>
+              <li class="mobile__item">
+                <a class="mobile__link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </nav>
+
+        <div class="project project1__overview">
+          <header class="project__header">
+            <h1 class="project__title">
+              <span class="hero__name">BookStore App</span>
+            </h1>
+            <h2 class="project__subtitle">case study</h2>
+            <p class="project__description">
+              The project involves the development of an application for making
+              purchases in an online bookstore.
+            </p>
+            <p class="project__description">
+              <span class="project__description--h3">Project duration:</span>
+              October 2021 - January 2022
+            </p>
+            <p class="project__description">
+              <span class="project__description--h3">My role:</span> UX
+              researcher, UX designer
+            </p>
+            <p class="project__description">
+              <span class="project__description--h3">Responsibilities:</span>
+              user research, wireframing, prototyping, testing
+            </p>
+          </header>
+          <img
+            src="../assets/smartmockups_l2g1j0i6.jpg"
+            class="project__img"
+            alt="how the app looks like"
+          />
+        </div>
+      </section>
+      <section class="hero__without container">
+        <h2 class="project__head">Project overview</h2>
+        <div class="project__intro">
+          <div class="project__box">
+            <!-- ikona -->
+            <h3>The problem:</h3>
+            <ul>
+              <li>
+                Difficult to use, inaccessible, especially for older people,
+                applications discourage their use.
+              </li>
+              <li>
+                The lack of filtering options and the possibility of quick
+                payments annoys and frustrates users.
+              </li>
+            </ul>
+          </div>
+          <div class="project__box">
+            <!-- ikona -->
+            <h3 class="project__subhead">The goal:</h3>
+            <ul>
+              <li>
+                The application must be easy for everyone to use. With
+                particular emphasis on older people who have no experience in
+                online shopping.
+              </li>
+              <li>
+                The application must contain filtering options, a wide range of
+                payment options.
+              </li>
+              <li>The application must provide assistance at every stage.</li>
+            </ul>
+          </div>
+        </div>
+        <h2 class="project__head">User research: summary</h2>
+        <div class="project__intro">
+          <div class="project__box">
+            <ul>
+              <li>
+                I conducted interviews and created empathy maps to understand
+                the users I’m designing for and their needs.
+              </li>
+              <li>
+                The main group of users identified on the basis of research - a
+                group of adults of various ages, including older people, and
+                working people with little time and high expectations on a daily
+                basis.
+              </li>
+              <li>
+                This user group confirmed the initial assumptions about
+                BookStore App customers. For many people, the application was
+                too complicated, some people gave up due to the lack of
+                alternatives in searching for books, some people gave up due to
+                limited payment options.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <h2 class="project__head">User research: pain points</h2>
+        <ul class="project__list">
+          <li class="project__item">
+            <div class="number">1</div>
+            <h3 class="project__subhead">Accessibility</h3>
+            <p class="project__body">
+              Older people find it very difficult to use shopping apps. Simple
+              operation is conducive to a quick solution.
+            </p>
+          </li>
+          <li class="project__item">
+            <div class="number">2</div>
+            <h3 class="project__subhead">IA</h3>
+            <p class="project__body">
+              Searching for a specific product takes too long
+            </p>
+          </li>
+          <li class="project__item">
+            <div class="number">3</div>
+            <h3 class="project__subhead">Payment options</h3>
+            <p class="project__body">
+              The lack of a wide range of payment options discourages users from
+              using the application.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="hero__without project__table container">
+        <h2 class="project__head">Persona: <span>Corinne Haddleton</span></h2>
+        <h3 class="project__subhead project__persona--link">
+          Link to info:
+          <a
+            href="https://docs.google.com/presentation/d/1kHkUJgvAn4dAdGF6Ua3bzuMfhj6IUXHL7SjnvHuZIKk/edit?usp=sharing" target="_blank"
+            >Click here</a
+          >
+        </h3>
+
+        <img
+          src="../assets/persona1.jpg"
+          class="project__persona--img"
+          alt="description of persona"
+        />
+        <h3 class="project__subhead">
+          Problem statement:
+          <span
+            >Corrine is a old lady who needs a way to easily buy books online
+            because she doesn't want to ask anyone for help.</span
+          >
+        </h3>
+
+        <h3 class="project__subhead">
+          User story:
+          <span
+            >As an older person with little internet shopping experience I want
+            to make my shopping experience very simplified and safe, so that to
+            buy books on my own.</span
+          >
+        </h3>
+        <h2 class="project__head">Persona: <span>Iggy McGready</span></h2>
+
+        <img
+          src="../assets/persona2.jpg"
+          class="project__persona--img"
+          alt="description of persona"
+        />
+        <h3 class="project__subhead">
+          Problem statement:
+          <span
+            >Iggy is a busy architect, who needs a way to buy a few special
+            books quickly and comfortable because he is demanding and he has
+            little time. .</span
+          >
+        </h3>
+
+        <h3 class="project__subhead">
+          User story:
+          <span
+            >As a user with advanced technological skills I want to be able to
+            use advanced search and many attractive payment options so that I
+            can make quick purchases.</span
+          >
+        </h3>
+        <h3 class="project__subhead">User journey map</h3>
+        <h3 class="project__subhead project__persona--link">
+          Link to info:
+          <a
+            href="https://docs.google.com/presentation/d/1kHkUJgvAn4dAdGF6Ua3bzuMfhj6IUXHL7SjnvHuZIKk/edit?usp=sharing" target="_blank"
+            >Click here</a
+          >
+        </h3>
+        <img
+          src="../assets/userJourneyMap.jpg"
+          class="project__persona--img"
+          alt="table with user journey map of persona2"
+        />
+      </section>
+
+
+
+      <section class="hero__without  project__table  container">
+        <h2 class="project__head">Starting the design</h2>
+        <h3 class="project__head">
+          Paper wireframes:</h3>
+          <div class="project__intro project__intro--frames">
+            <div class="project__box">
+          <ul><li>Taking the time to iterate each application screen on paper has ensured that the items that ended up in the digital wireframes were well suited to solving user problems. From the very beginning, I wanted the application to offer help at every stage and to make it as simple as possible.
+          </li></ul>
+        
+         
+        </div>
+        <img src="../assets/paperWireframes.jpg" class="project__image" alt="paper wireframes" />
+          </div>
+
+          <h3 class="project__head">Digital wireframes</h2>
+          <div class="project__intro project__intro--frames">
+            <div class="project__box">
+              <ul>
+                <li>
+              A. As the initial design phase continued, I made sure to base
+              screen designs on feedback and findings from the user research.
+                </li>
+            <li>
+              B. Easy search was a key user need that I had to include in the
+              project.
+            </li>
+        </div>
+        <img src="../assets/digitalWireframes.jpg" alt="paper wireframes" />
+
+          </div>
+  
+          <h3 class="project__head">
+            Low fidelity prototype:</h3>
+            
+            <div class="project__block">
+              <p>
+              Using the completed set of digital wireframes, I created a low-fidelity prototype. Quite quickly, I gave up the startup screens and made a few minor visual changes
+                </p>
+                <img src="../assets/flow1.png" class="project__image" alt="lo-fi prototype screenshot" />
+              <h3 class="project__subhead project__persona--link">Link to <a target="_blank" href="https://www.figma.com/proto/sF0IlQKzHw7BhVcl4uOwTc/Bookstore-App---wireframes?page-id=116%3A9&node-id=116%3A594&viewport=241%2C48%2C0.43&scaling=scale-down&starting-point-node-id=116%3A10">prototype</a></p>
+            </div>
+          
+           
+        
+<h2 class="project__head">Usability study: findings</h2>
+        <div class="project__block">
+          <p>I conducted two rounds of usability studies. Findings from the first
+          study helped guide the designs from wireframes to mockups. The second
+          study used a high-fidelity prototype and revealed what aspects of the
+          mockups needed refining.
+        </p>
+        <ul class="project__list">
+          <li class="project__item">
+            <div class="number">1</div>
+            <p class="project__body">
+              the searched icon must move to the top of the application window,
+              because that's where most of the users look for it
+            </p>
+          </li>
+          <li class="project__item">
+            <div class="number">2</div>
+            <p class="project__body">
+              the help option must be more visible and intuitive
+            </p>
+          </li>
+          <li class="project__item">
+            <div class="number">3</div>
+            <p class="project__body">
+              standard and advanced search should be more separated
+            </p>
+          </li>
+          <li class="project__item">
+            <div class="number">4</div>
+            <p class="project__body">
+              purchase summary sent to a personal email is necessary
+            </p>
+          </li>
+        </ul>
+   
+        </div>
+      </section>
+
+      <section class="hero__without project__table container">
+        <h2 class="project__head">Refining the design</h2>
+        <h3 class="project__subhead">
+          Mockups:
+          <span
+            >One of the first steps in customizing the design was moving the search icon to the top of the app window - most of the study participants noticed this.
+
+            </span
+          >
+        </h3>
+        <img class="project__image" alt="mockups" src="../assets/mockups1.jpg" />
+        <h3 class="project__subhead">
+          Mockups:
+          <span
+            >
+            After further usability tests, I made the help panel smaller - I removed the text information - the help icon was "stuck" to the window, the panel was too large and covered essential parts.
+            I added the back navigation icon (back arrow), which I removed in the previous step. The usability test participants missed it.
+            
+            </span
+          >
+        </h3>
+        <img class="project__image" alt="mockups" src="../assets/mockups2.jpg" />
+
+        <h3 class="project__subhead">
+          High-fidelity prototype: 
+          <span>
+            The final high-fidelity prototype represented cleaner and more intuitive user flows. It also satisfied the needs of users regarding the search options, there was an information about sending an order confirmation to the e-mail address.
+          </span>
+            <h3 class="project__subhead project__persona--link">Link to <a target="_blank" href="https://www.figma.com/proto/sF0IlQKzHw7BhVcl4uOwTc/Bookstore-App---wireframes?page-id=287%3A10&node-id=287%3A11&viewport=241%2C48%2C1&scaling=scale-down&starting-point-node-id=287%3A11">hi-fi prototype</a></h3>
+          
+            <h2 class="project__head">Accessibility considerations</h2>
+            <div class="project__block">
+          
+            <ul class="project__list">
+              <li class="project__item">
+                <div class="number">1</div>
+                <p class="project__body">
+                  The minimalism of the application and expressive color for key decisions ensure faster and easier user flow. 
+                </p>
+              </li>
+              <li class="project__item">
+                <div class="number">2</div>
+                <p class="project__body">
+                  The help icon is always at hand for every participant.
+
+                </p>
+              </li>
+              <li class="project__item">
+                <div class="number">3</div>
+                <p class="project__body">
+                  Provided access 
+                  to users who are vision impaired through adding alt text to images for screen readers.
+                  
+                </p>
+              </li>
+              </ul>
+            </div>
+          
+      </section> 
+
+
+      <section class="hero__without project__table container">
+        <h2 class="project__head">Going forward
+        </h2>
+        <h2 class="project__subhead">Takeaways</h2>
+        <div class="project__row">
+          <div class="project__column">
+            <div class="number"></div>
+            <h4 class="project__h4">Impact:</h4>
+            <p class="project__info">
+              Several study participants said the BookStore App convinced them to use the app when buying books.
+            </p>
+            <div class="project__quote">
+              <p class="project__cite">"I used to have a lot of difficulties using such applications and I gave up - today I can order a book without the help of my family" </p>
+              <span class="project__author">Rachel, 68</span>
+            </div>
+          </div>
+          <div class="project__column">
+            <div class="number"></div>
+            <h4 class="project__h4">What I learned:</h4>
+            <p class="project__info">
+              While working on this project, I learned that the first idea is not necessarily a good one, and some ideas that are rejected in the next stages come back successfully. I also learned that I don't have to be afraid of usability studies and participants' opinions about my project - it all brings my project closer to success..
+            </p>
+          </div>
+        </div>
+        <h2 class="project__subhead">Next step</h2>
+        <div class="project__row">
+          <div class="project__step">
+            <div class="number">1</div>
+            <p class="project__info">
+              Enter other screens into the application, such as user profile, page with articles and news, page with favorite items
+            </p>
+          </div>
+          <div class="project__step">
+            <div class="number">2</div>
+            <p class="project__info">
+              Add error screens
+            </p>
+          </div>
+          <div class="project__step">
+            <div class="number">3</div>
+            <p class="project__info">
+              Complete the advanced search section with sample options
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero__without project__table container">
+        <h2 class="project__head">Let's connect
+        </h2>
+        <div class="project__block">
+          <p class="project__info">
+            Thank you for taking the time to review my work on the BookStore App!
+          </p>
+          <h3 class="project__subhead project__persona--link">
+            Contact with me: <a target="_blank" href="contact.html">click here</a> 
+          </h3>
+        </div>
+        </section>
+
+
+
+      <footer class="footer container">
+        <div class="footer__top">
+          <a href="#" class="hero__logo">A--U--O</a>
+          <div class="footer__social">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="footer__icon fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="footer__icon fab fa-instagram"></i
+            ></a>
+
+            <a href="https://www.behance.net/" target="_blank"
+              ><i class="footer__icon fab fa-behance"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer__down">
+          <p>Designed & Created by A--U--O</p>
+          <p>All Rights Reserved</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
